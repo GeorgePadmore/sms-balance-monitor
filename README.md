@@ -107,7 +107,7 @@ SMS_BALANCE_CHANGE_THRESHOLD=10
 
 ```env
 # Comma-separated list of phone numbers to receive alerts
-SMS_ALERT_RECIPIENTS="0541840988,0501302075"
+SMS_ALERT_RECIPIENTS="0240000000,0500001100"
 ```
 
 ### Configuration File
@@ -344,13 +344,13 @@ const MONITOR_CONFIG = {
 
 **Via environment variable:**
 ```env
-SMS_ALERT_RECIPIENTS="0541840988,0501302075,0241234567"
+SMS_ALERT_RECIPIENTS="0240000000,0500001100"
 ```
 
 **Or edit `config.js`:**
 ```javascript
 const ALERT_CONFIG = {
-  recipients: ['0541840988', '0501302075', '0241234567']
+  recipients: ['0240000000', '0500001100']
 };
 ```
 
