@@ -1,0 +1,24 @@
+# Logs
+*.log
+logs/
+sms-balance-monitor.log
+
+# State files
+sms_notification_state.json
+
+# PM2 files
+.pm2/
+pm2-error.log
+pm2-out.log
+pm2-combined.log
+
+# Node modules (if any)
+node_modules/
+
+# Environment files
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
